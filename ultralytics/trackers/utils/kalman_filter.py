@@ -154,8 +154,8 @@ class KalmanFilterXYAH:
         if confidence is not None:  # NSA-Kalman: scale measurement noise by detection confidence (StrongSORT)
             innovation_cov *= max(1.0 - float(confidence), 0.05)
 
-        mean = np.dot(self._update_mat, mean)
-        covariance = np.linalg.multi_dot((self._update_mat, covariance, self._update_mat.T))
+        mean = mean[:4].copy()
+        covariance = covariance[:4, :4]
         return mean, covariance + innovation_cov
 
     def multi_predict(self, mean: np.ndarray, covariance: np.ndarray):
@@ -189,7 +189,8 @@ class KalmanFilterXYAH:
         ]
         sqr = np.square(np.r_[std_pos, std_vel]).T
 
-        motion_cov = sqr[:, :, None] * np.eye(8)
+        motion_cov = np.zeros((sqr.shape[0], 8, 8))
+        motion_cov[:, range(8), range(8)] = sqr
 
         mean = np.dot(mean, self._motion_mat.T)
         left = np.dot(self._motion_mat, covariance).transpose((1, 0, 2))
@@ -223,7 +224,7 @@ class KalmanFilterXYAH:
         """
         projected_mean, projected_cov = self.project(mean, covariance, confidence)
 
-        kalman_gain = np.linalg.solve(projected_cov, np.dot(covariance, self._update_mat.T).T).T
+        kalman_gain = np.linalg.solve(projected_cov, covariance[:, :4].T).T
         innovation = measurement - projected_mean
 
         new_mean = mean + np.dot(innovation, kalman_gain.T)
@@ -257,6 +258,9 @@ class KalmanFilterXYAH:
         Returns:
             (np.ndarray): Returns an array of length N, where the i-th element contains the squared distance between
                 (mean, covariance) and `measurements[i]`.
+
+        Raises:
+            ValueError: If `metric` is not 'gaussian' or 'maha'.
 
         Examples:
             Compute gating distance using Mahalanobis metric:
@@ -410,8 +414,8 @@ class KalmanFilterXYWH(KalmanFilterXYAH):
         if confidence is not None:  # NSA-Kalman: scale measurement noise by detection confidence (StrongSORT)
             innovation_cov *= max(1.0 - float(confidence), 0.05)
 
-        mean = np.dot(self._update_mat, mean)
-        covariance = np.linalg.multi_dot((self._update_mat, covariance, self._update_mat.T))
+        mean = mean[:4].copy()
+        covariance = covariance[:4, :4]
         return mean, covariance + innovation_cov
 
     def multi_predict(self, mean: np.ndarray, covariance: np.ndarray):
@@ -445,7 +449,8 @@ class KalmanFilterXYWH(KalmanFilterXYAH):
         ]
         sqr = np.square(np.r_[std_pos, std_vel]).T
 
-        motion_cov = sqr[:, :, None] * np.eye(8)
+        motion_cov = np.zeros((sqr.shape[0], 8, 8))
+        motion_cov[:, range(8), range(8)] = sqr
 
         mean = np.dot(mean, self._motion_mat.T)
         left = np.dot(self._motion_mat, covariance).transpose((1, 0, 2))
