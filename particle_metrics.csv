@@ -1,0 +1,91 @@
+confidence_pct,sample_est_ppm,drinking_water_safety,timestamp,image,particle_id,material_category,class_name,shape_type,est_mass_ug,est_volume_um3,area_um2,perimeter_um,length_um,width_um,aspect_ratio,circularity,centroid_x_px,centroid_y_px
+91.4,0.0,SAFE TO DRINK,2026-08-31 15:21:21,Tap_Water_Sample_001.tif,1,Organic Matter,organic_diatom,Pellet/Bead,0.0,0.0,131.49,40.82,14.2,11.79,1.2,0.992,131,839
+92.4,0.0,SAFE TO DRINK,2026-08-31 15:21:21,Tap_Water_Sample_001.tif,2,Organic Matter,organic_diatom,Pellet/Bead,0.0,0.0,134.6,42.36,16.72,10.25,1.63,0.943,1196,169
+85.9,0.0,SAFE TO DRINK,2026-08-31 15:21:21,Tap_Water_Sample_001.tif,3,Organic Matter,organic_diatom,Pellet/Bead,0.0,0.0,191.42,49.18,16.82,14.49,1.16,0.995,556,597
+86.6,0.0,SAFE TO DRINK,2026-08-31 15:21:21,Tap_Water_Sample_001.tif,4,Mineral / Inorganic,mineral_grain,Fragment,0.0,0.0,250.0,60.0,20.0,18.0,1.11,0.87,1196,509
+88.3,0.007,SAFE TO DRINK,2026-08-31 15:21:21,Filtered_Water_Sample_002.tif,1,Microplastic,pe_fragment,Fragment,0.0045,4785.12,686.86,123.96,41.08,20.9,1.97,0.562,649,908
+86.6,0.007,SAFE TO DRINK,2026-08-31 15:21:21,Filtered_Water_Sample_002.tif,2,Organic Matter,organic_diatom,Pellet/Bead,0.0,0.0,130.89,40.75,14.22,11.72,1.21,0.991,945,428
+92.6,0.007,SAFE TO DRINK,2026-08-31 15:21:21,Filtered_Water_Sample_002.tif,3,Organic Matter,organic_diatom,Pellet/Bead,0.0,0.0,152.03,43.84,15.04,12.87,1.17,0.994,289,174
+92.5,0.305,UNSAFE TO DRINK (High Microplastics),2026-08-31 15:21:21,River_Water_Sample_003.tif,1,Microplastic,pet_fiber,Fiber,0.0018,1286.63,354.59,162.74,76.75,4.62,16.61,0.168,168,827
+85.1,0.305,UNSAFE TO DRINK (High Microplastics),2026-08-31 15:21:21,River_Water_Sample_003.tif,2,Microplastic,pet_fiber,Fiber,0.007,5039.47,761.14,197.44,90.29,8.43,10.71,0.245,680,929
+92.1,0.305,UNSAFE TO DRINK (High Microplastics),2026-08-31 15:21:21,River_Water_Sample_003.tif,3,Microplastic,pet_fiber,Fiber,0.0062,4519.13,731.12,201.54,92.9,7.87,11.8,0.226,222,126
+96.0,0.305,UNSAFE TO DRINK (High Microplastics),2026-08-31 15:21:21,River_Water_Sample_003.tif,4,Microplastic,nylon_fiber,Fiber,0.0029,2520.05,446.88,138.84,62.24,7.18,8.67,0.291,286,469
+86.3,0.305,UNSAFE TO DRINK (High Microplastics),2026-08-31 15:21:21,River_Water_Sample_003.tif,5,Microplastic,pet_fiber,Fiber,0.0057,4146.6,703.01,202.24,93.61,7.51,12.46,0.216,807,294
+93.1,0.305,UNSAFE TO DRINK (High Microplastics),2026-08-31 15:21:21,River_Water_Sample_003.tif,6,Microplastic,plastic_fiber,Fiber,0.0019,1794.2,473.95,206.3,98.33,4.82,20.4,0.14,430,626
+87.8,0.305,UNSAFE TO DRINK (High Microplastics),2026-08-31 15:21:21,River_Water_Sample_003.tif,7,Microplastic,pet_fiber,Fiber,0.0044,3183.25,516.97,147.56,65.94,7.84,8.41,0.298,529,781
+87.2,0.305,UNSAFE TO DRINK (High Microplastics),2026-08-31 15:21:21,River_Water_Sample_003.tif,8,Microplastic,nylon_fiber,Fiber,0.0017,1461.12,348.38,141.16,65.24,5.34,12.22,0.22,145,904
+96.8,0.305,UNSAFE TO DRINK (High Microplastics),2026-08-31 15:21:21,River_Water_Sample_003.tif,9,Microplastic,nylon_fiber,Fiber,0.003,2596.28,552.79,196.84,92.44,5.98,15.46,0.179,724,297
+90.4,0.305,UNSAFE TO DRINK (High Microplastics),2026-08-31 15:21:21,River_Water_Sample_003.tif,10,Microplastic,plastic_fiber,Fiber,0.0023,2175.59,406.76,133.08,59.73,6.81,8.77,0.289,622,222
+94.5,0.305,UNSAFE TO DRINK (High Microplastics),2026-08-31 15:21:21,River_Water_Sample_003.tif,11,Microplastic,pet_fiber,Fiber,0.002,1469.81,366.94,154.1,71.95,5.1,14.11,0.194,957,677
+91.1,0.305,UNSAFE TO DRINK (High Microplastics),2026-08-31 15:21:21,River_Water_Sample_003.tif,12,Microplastic,nylon_fiber,Fiber,0.0008,711.69,199.15,96.64,43.77,4.55,9.62,0.268,266,853
+86.2,0.305,UNSAFE TO DRINK (High Microplastics),2026-08-31 15:21:21,River_Water_Sample_003.tif,13,Microplastic,plastic_fiber,Fiber,0.0013,1236.66,266.42,101.98,45.08,5.91,7.63,0.322,944,690
+91.4,0.305,UNSAFE TO DRINK (High Microplastics),2026-08-31 15:21:21,River_Water_Sample_003.tif,14,Microplastic,pet_fiber,Fiber,0.0058,4211.56,723.66,210.14,97.66,7.41,13.18,0.206,103,776
+94.5,0.305,UNSAFE TO DRINK (High Microplastics),2026-08-31 15:21:21,River_Water_Sample_003.tif,15,Microplastic,plastic_fiber,Fiber,0.0012,1143.93,304.07,136.54,63.48,4.79,13.25,0.205,776,194
+97.4,0.305,UNSAFE TO DRINK (High Microplastics),2026-08-31 15:21:21,River_Water_Sample_003.tif,16,Microplastic,nylon_fiber,Fiber,0.0039,3391.52,660.28,215.0,100.96,6.54,15.44,0.179,619,592
+96.2,0.305,UNSAFE TO DRINK (High Microplastics),2026-08-31 15:21:21,River_Water_Sample_003.tif,17,Microplastic,nylon_fiber,Fiber,0.004,3546.9,641.48,196.32,91.12,7.04,12.94,0.209,691,941
+89.2,0.305,UNSAFE TO DRINK (High Microplastics),2026-08-31 15:21:21,River_Water_Sample_003.tif,18,Microplastic,nylon_fiber,Fiber,0.0077,6770.2,1001.17,249.78,116.28,8.61,13.51,0.202,410,632
+92.4,0.305,UNSAFE TO DRINK (High Microplastics),2026-08-31 15:21:21,River_Water_Sample_003.tif,19,Microplastic,nylon_fiber,Fiber,0.0015,1297.76,284.4,109.52,48.95,5.81,8.43,0.298,1080,99
+87.4,0.305,UNSAFE TO DRINK (High Microplastics),2026-08-31 15:21:21,River_Water_Sample_003.tif,20,Microplastic,pet_fiber,Fiber,0.0025,1784.25,512.82,240.38,115.76,4.43,26.13,0.112,573,660
+95.4,0.305,UNSAFE TO DRINK (High Microplastics),2026-08-31 15:21:21,River_Water_Sample_003.tif,21,Microplastic,pet_fiber,Fiber,0.0029,2095.2,365.44,114.72,50.06,7.3,6.86,0.349,1170,864
+86.3,0.305,UNSAFE TO DRINK (High Microplastics),2026-08-31 15:21:21,River_Water_Sample_003.tif,22,Microplastic,plastic_fiber,Fiber,0.0016,1485.05,373.68,157.82,73.85,5.06,14.59,0.189,1160,701
+94.6,0.305,UNSAFE TO DRINK (High Microplastics),2026-08-31 15:21:21,River_Water_Sample_003.tif,23,Microplastic,plastic_fiber,Fiber,0.0043,4112.96,583.16,147.84,64.94,8.98,7.23,0.335,491,810
+89.2,0.305,UNSAFE TO DRINK (High Microplastics),2026-08-31 15:21:21,River_Water_Sample_003.tif,24,Microplastic,plastic_fiber,Fiber,0.0011,1022.85,254.36,109.6,49.68,5.12,9.7,0.266,1139,542
+84.3,0.305,UNSAFE TO DRINK (High Microplastics),2026-08-31 15:21:21,River_Water_Sample_003.tif,25,Microplastic,pet_fiber,Fiber,0.0012,856.33,250.65,123.94,57.62,4.35,13.25,0.205,551,682
+84.8,0.305,UNSAFE TO DRINK (High Microplastics),2026-08-31 15:21:21,River_Water_Sample_003.tif,26,Microplastic,plastic_fiber,Fiber,0.0017,1616.51,473.15,226.24,108.77,4.35,25.0,0.116,218,112
+87.9,0.305,UNSAFE TO DRINK (High Microplastics),2026-08-31 15:21:21,River_Water_Sample_003.tif,27,Microplastic,nylon_fiber,Fiber,0.0043,3791.49,633.53,181.52,83.14,7.62,10.91,0.242,1074,299
+92.1,0.305,UNSAFE TO DRINK (High Microplastics),2026-08-31 15:21:21,River_Water_Sample_003.tif,28,Microplastic,plastic_fiber,Fiber,0.0023,2230.32,470.15,167.76,77.84,6.04,12.89,0.21,577,883
+85.4,0.305,UNSAFE TO DRINK (High Microplastics),2026-08-31 15:21:21,River_Water_Sample_003.tif,29,Microplastic,nylon_fiber,Fiber,0.0027,2332.67,468.46,160.46,73.89,6.34,11.65,0.229,962,442
+84.8,0.305,UNSAFE TO DRINK (High Microplastics),2026-08-31 15:21:21,River_Water_Sample_003.tif,30,Microplastic,plastic_fiber,Fiber,0.0019,1842.62,411.6,155.82,72.21,5.7,12.67,0.213,281,142
+87.5,0.305,UNSAFE TO DRINK (High Microplastics),2026-08-31 15:21:21,River_Water_Sample_003.tif,31,Microplastic,nylon_fiber,Fiber,0.0025,2225.14,463.69,164.0,75.89,6.11,12.42,0.217,469,629
+90.5,0.305,UNSAFE TO DRINK (High Microplastics),2026-08-31 15:21:21,River_Water_Sample_003.tif,32,Microplastic,pet_fiber,Fiber,0.0078,5634.41,866.42,225.84,104.64,8.28,12.64,0.213,234,533
+84.7,0.305,UNSAFE TO DRINK (High Microplastics),2026-08-31 15:21:21,River_Water_Sample_003.tif,33,Microplastic,nylon_fiber,Fiber,0.0007,646.24,184.07,91.3,41.18,4.47,9.21,0.277,1187,936
+86.3,0.305,UNSAFE TO DRINK (High Microplastics),2026-08-31 15:21:21,River_Water_Sample_003.tif,34,Microplastic,nylon_fiber,Fiber,0.0018,1619.85,343.17,126.22,57.1,6.01,9.5,0.271,1074,572
+86.3,0.305,UNSAFE TO DRINK (High Microplastics),2026-08-31 15:21:21,River_Water_Sample_003.tif,35,Microplastic,nylon_fiber,Fiber,0.0034,3016.02,484.86,138.28,61.22,7.92,7.73,0.319,84,479
+88.0,0.305,UNSAFE TO DRINK (High Microplastics),2026-08-31 15:21:21,River_Water_Sample_003.tif,36,Microplastic,pet_fiber,Fiber,0.0015,1123.02,280.92,120.56,55.19,5.09,10.84,0.243,1076,238
+92.1,0.305,UNSAFE TO DRINK (High Microplastics),2026-08-31 15:21:21,River_Water_Sample_003.tif,37,Microplastic,nylon_fiber,Fiber,0.0016,1443.14,428.31,208.26,99.84,4.29,23.27,0.124,1190,142
+90.7,0.305,UNSAFE TO DRINK (High Microplastics),2026-08-31 15:21:21,River_Water_Sample_003.tif,38,Microplastic,plastic_fiber,Fiber,0.0016,1496.56,291.36,102.18,44.55,6.54,6.81,0.351,1167,241
+85.0,0.305,UNSAFE TO DRINK (High Microplastics),2026-08-31 15:21:21,River_Water_Sample_003.tif,39,Microplastic,nylon_fiber,Fiber,0.0035,3101.06,655.88,229.94,108.95,6.02,18.1,0.156,219,771
+87.4,0.305,UNSAFE TO DRINK (High Microplastics),2026-08-31 15:21:21,River_Water_Sample_003.tif,40,Microplastic,plastic_fiber,Fiber,0.002,1943.38,339.42,107.7,46.56,7.29,6.39,0.368,161,714
+91.3,0.305,UNSAFE TO DRINK (High Microplastics),2026-08-31 15:21:21,River_Water_Sample_003.tif,41,Microplastic,plastic_fiber,Fiber,0.0024,2280.25,521.24,198.3,93.58,5.57,16.8,0.167,614,289
+89.5,0.305,UNSAFE TO DRINK (High Microplastics),2026-08-31 15:21:21,River_Water_Sample_003.tif,42,Microplastic,pet_fiber,Fiber,0.0043,3087.88,506.65,146.1,65.29,7.76,8.41,0.298,694,548
+84.1,0.305,UNSAFE TO DRINK (High Microplastics),2026-08-31 15:21:21,River_Water_Sample_003.tif,43,Microplastic,nylon_fiber,Fiber,0.0032,2780.01,542.06,179.08,83.01,6.53,12.71,0.212,284,155
+97.1,0.305,UNSAFE TO DRINK (High Microplastics),2026-08-31 15:21:21,River_Water_Sample_003.tif,44,Microplastic,nylon_fiber,Fiber,0.0014,1253.49,333.19,148.7,69.56,4.79,14.52,0.189,220,330
+93.8,0.305,UNSAFE TO DRINK (High Microplastics),2026-08-31 15:21:21,River_Water_Sample_003.tif,45,Microplastic,plastic_fiber,Fiber,0.0035,3363.21,632.52,200.4,93.43,6.77,13.8,0.198,1163,88
+83.5,0.305,UNSAFE TO DRINK (High Microplastics),2026-08-31 15:21:21,River_Water_Sample_003.tif,46,Microplastic,ps_fragment,Fragment,0.0005,474.7,145.02,56.56,18.46,9.82,1.88,0.57,355,350
+84.2,0.305,UNSAFE TO DRINK (High Microplastics),2026-08-31 15:21:21,River_Water_Sample_003.tif,47,Microplastic,ps_fragment,Fragment,0.0011,1087.41,235.88,70.3,21.32,13.83,1.54,0.6,657,699
+90.9,0.305,UNSAFE TO DRINK (High Microplastics),2026-08-31 15:21:21,River_Water_Sample_003.tif,48,Microplastic,ps_fragment,Fragment,0.0045,4327.15,555.0,106.1,29.66,23.39,1.27,0.62,620,597
+83.3,0.305,UNSAFE TO DRINK (High Microplastics),2026-08-31 15:21:21,River_Water_Sample_003.tif,49,Microplastic,pe_fragment,Fragment,0.0004,403.64,150.24,62.72,23.3,8.06,2.89,0.48,947,929
+90.9,0.305,UNSAFE TO DRINK (High Microplastics),2026-08-31 15:21:21,River_Water_Sample_003.tif,50,Microplastic,pe_fragment,Fragment,0.0028,2999.67,517.78,109.24,37.24,17.38,2.14,0.545,616,245
+89.9,0.305,UNSAFE TO DRINK (High Microplastics),2026-08-31 15:21:21,River_Water_Sample_003.tif,51,Microplastic,pp_fragment,Fragment,0.0041,4509.12,684.93,126.2,43.35,19.75,2.19,0.54,309,157
+89.6,0.305,UNSAFE TO DRINK (High Microplastics),2026-08-31 15:21:21,River_Water_Sample_003.tif,52,Microplastic,pe_fragment,Fragment,0.0019,1973.92,386.79,93.78,31.58,15.31,2.06,0.553,836,676
+86.3,0.305,UNSAFE TO DRINK (High Microplastics),2026-08-31 15:21:21,River_Water_Sample_003.tif,53,Microplastic,pe_fragment,Fragment,0.0008,850.97,208.57,67.08,21.3,12.24,1.74,0.582,161,446
+87.0,0.305,UNSAFE TO DRINK (High Microplastics),2026-08-31 15:21:21,River_Water_Sample_003.tif,54,Microplastic,pe_fragment,Fragment,0.0053,5632.87,711.82,122.44,37.48,23.74,1.58,0.597,912,715
+94.1,0.305,UNSAFE TO DRINK (High Microplastics),2026-08-31 15:21:21,River_Water_Sample_003.tif,55,Microplastic,pe_fragment,Fragment,0.0017,1767.39,258.39,72.52,15.74,20.52,0.77,0.617,442,502
+93.0,0.305,UNSAFE TO DRINK (High Microplastics),2026-08-31 15:21:21,River_Water_Sample_003.tif,56,Microplastic,pp_fragment,Fragment,0.0035,3933.54,575.64,111.2,35.1,20.5,1.71,0.585,923,901
+85.7,0.305,UNSAFE TO DRINK (High Microplastics),2026-08-31 15:21:21,River_Water_Sample_003.tif,57,Microplastic,pe_fragment,Fragment,0.0053,5607.44,744.35,127.54,41.17,22.6,1.82,0.575,301,471
+84.8,0.305,UNSAFE TO DRINK (High Microplastics),2026-08-31 15:21:21,River_Water_Sample_003.tif,58,Microplastic,pe_fragment,Fragment,0.0028,2983.68,415.94,91.36,24.16,21.52,1.12,0.626,1022,438
+85.1,0.305,UNSAFE TO DRINK (High Microplastics),2026-08-31 15:21:21,River_Water_Sample_003.tif,59,Microplastic,pe_fragment,Fragment,0.0032,3411.67,451.08,95.08,24.85,22.69,1.1,0.627,475,488
+86.9,0.305,UNSAFE TO DRINK (High Microplastics),2026-08-31 15:21:21,River_Water_Sample_003.tif,60,Microplastic,pp_fragment,Fragment,0.0042,4709.94,632.49,115.46,35.39,22.34,1.58,0.596,1123,489
+95.1,0.305,UNSAFE TO DRINK (High Microplastics),2026-08-31 15:21:21,River_Water_Sample_003.tif,61,Microplastic,pp_fragment,Fragment,0.0029,3221.85,396.78,89.44,20.36,24.36,0.84,0.623,316,347
+82.5,0.305,UNSAFE TO DRINK (High Microplastics),2026-08-31 15:21:21,River_Water_Sample_003.tif,62,Microplastic,pp_fragment,Fragment,0.0016,1746.59,393.08,100.38,36.86,13.33,2.77,0.49,969,433
+95.8,0.305,UNSAFE TO DRINK (High Microplastics),2026-08-31 15:21:21,River_Water_Sample_003.tif,63,Microplastic,ps_fragment,Fragment,0.0015,1412.14,377.24,106.44,41.99,11.23,3.74,0.418,316,474
+91.9,0.305,UNSAFE TO DRINK (High Microplastics),2026-08-31 15:21:21,River_Water_Sample_003.tif,64,Microplastic,pe_fragment,Fragment,0.0032,3354.54,586.8,119.84,42.77,17.15,2.49,0.513,83,612
+95.2,0.305,UNSAFE TO DRINK (High Microplastics),2026-08-31 15:21:21,River_Water_Sample_003.tif,65,Microplastic,ps_fragment,Fragment,0.0046,4338.17,539.35,104.14,27.94,24.13,1.16,0.625,483,452
+90.7,0.305,UNSAFE TO DRINK (High Microplastics),2026-08-31 15:21:21,River_Water_Sample_003.tif,66,Microplastic,pp_fragment,Fragment,0.0028,3093.7,558.43,117.24,42.0,16.62,2.53,0.511,335,817
+87.7,0.305,UNSAFE TO DRINK (High Microplastics),2026-08-31 15:21:21,River_Water_Sample_003.tif,67,Microplastic,ps_fragment,Fragment,0.0007,657.08,194.02,68.06,23.87,10.16,2.35,0.526,904,793
+91.3,0.305,UNSAFE TO DRINK (High Microplastics),2026-08-31 15:21:21,River_Water_Sample_003.tif,68,Microplastic,pp_fragment,Fragment,0.0011,1199.28,328.27,96.8,37.44,10.96,3.42,0.44,856,773
+86.2,0.305,UNSAFE TO DRINK (High Microplastics),2026-08-31 15:21:21,River_Water_Sample_003.tif,69,Microplastic,ps_fragment,Fragment,0.0015,1475.78,289.18,77.84,23.61,15.31,1.54,0.6,80,391
+90.5,0.305,UNSAFE TO DRINK (High Microplastics),2026-08-31 15:21:21,River_Water_Sample_003.tif,70,Microplastic,ps_fragment,Fragment,0.003,2861.59,440.47,95.48,28.25,19.49,1.45,0.607,739,556
+88.6,0.305,UNSAFE TO DRINK (High Microplastics),2026-08-31 15:21:21,River_Water_Sample_003.tif,71,Microplastic,ps_fragment,Fragment,0.0014,1313.87,235.18,68.6,17.54,16.76,1.05,0.628,427,754
+90.7,0.305,UNSAFE TO DRINK (High Microplastics),2026-08-31 15:21:21,River_Water_Sample_003.tif,72,Microplastic,ps_fragment,Fragment,0.0018,1669.93,417.83,111.1,43.56,11.99,3.63,0.425,271,918
+85.1,0.305,UNSAFE TO DRINK (High Microplastics),2026-08-31 15:21:21,River_Water_Sample_003.tif,73,Microplastic,pp_fragment,Fragment,0.0006,620.24,153.02,55.78,15.73,12.16,1.29,0.618,487,230
+90.6,0.305,UNSAFE TO DRINK (High Microplastics),2026-08-31 15:21:21,River_Water_Sample_003.tif,74,Microplastic,pp_fragment,Fragment,0.0023,2560.59,410.57,92.28,27.43,18.71,1.47,0.606,229,546
+86.9,0.305,UNSAFE TO DRINK (High Microplastics),2026-08-31 15:21:21,River_Water_Sample_003.tif,75,Organic Matter,organic_diatom,Pellet/Bead,0.0,0.0,133.47,41.44,15.2,11.18,1.36,0.977,866,586
+91.9,0.305,UNSAFE TO DRINK (High Microplastics),2026-08-31 15:21:21,River_Water_Sample_003.tif,76,Organic Matter,organic_diatom,Pellet/Bead,0.0,0.0,138.01,42.11,15.4,11.41,1.35,0.978,298,877
+94.6,0.305,UNSAFE TO DRINK (High Microplastics),2026-08-31 15:21:21,River_Water_Sample_003.tif,77,Organic Matter,organic_diatom,Pellet/Bead,0.0,0.0,116.77,38.31,12.4,11.99,1.03,1.0,1140,555
+93.5,0.305,UNSAFE TO DRINK (High Microplastics),2026-08-31 15:21:21,River_Water_Sample_003.tif,78,Organic Matter,organic_diatom,Pellet/Bead,0.0,0.0,221.8,53.01,18.41,15.34,1.2,0.992,1014,216
+94.9,0.305,UNSAFE TO DRINK (High Microplastics),2026-08-31 15:21:21,River_Water_Sample_003.tif,79,Organic Matter,organic_diatom,Pellet/Bead,0.0,0.0,223.87,53.45,19.13,14.9,1.28,0.985,729,853
+86.6,0.305,UNSAFE TO DRINK (High Microplastics),2026-08-31 15:21:21,River_Water_Sample_003.tif,80,Mineral / Inorganic,mineral_grain,Fragment,0.0,0.0,250.0,60.0,20.0,18.0,1.11,0.87,1113,516
+88.0,0.305,UNSAFE TO DRINK (High Microplastics),2026-08-31 15:21:21,River_Water_Sample_003.tif,81,Mineral / Inorganic,mineral_grain,Fragment,0.0,0.0,250.0,60.0,20.0,18.0,1.11,0.87,993,242
+86.9,0.305,UNSAFE TO DRINK (High Microplastics),2026-08-31 15:21:21,River_Water_Sample_003.tif,82,Mineral / Inorganic,mineral_grain,Fragment,0.0,0.0,250.0,60.0,20.0,18.0,1.11,0.87,1052,540
+81.1,0.305,UNSAFE TO DRINK (High Microplastics),2026-08-31 15:21:21,River_Water_Sample_003.tif,83,Mineral / Inorganic,mineral_grain,Fragment,0.0,0.0,250.0,60.0,20.0,18.0,1.11,0.87,586,940
